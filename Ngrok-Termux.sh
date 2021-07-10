@@ -1,5 +1,6 @@
 echo "Installing Depencies..."
-apt update && upgrade -y
+apt update 
+upgrade -y
 apt install -y wget
 clear
 g='\033[01;32m'
@@ -41,7 +42,7 @@ echo "${g}██║╚██╗██║██║   ██║██╔══█�
 echo "${g}██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗";
 echo "${g}╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝";
 echo
-echo "Example command to start ngrok: ./ngrok http 8080"
+echo "Example command to start ngrok: ngrok http 8080"
 ;;
 
 n)
