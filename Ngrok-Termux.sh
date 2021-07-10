@@ -1,4 +1,4 @@
-echo "$atualizar Atualizando repositório..."
+echo "Installing Depencies..."
 apt update && upgrade -y
 apt install -y wget
 clear
