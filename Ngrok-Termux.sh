@@ -26,7 +26,7 @@ i*86)
 x86_64)
     architectureURL="amd64" ;;
 *)
-    echo "Arquitetura desconhecida"
+    echo "installing."
 esac
 
 wget "https://github.com/tchelospy/NgrokTest/blob/master/ngrok-stable-linux-${architectureURL}.zip?raw=true" -O ngrok.zip
